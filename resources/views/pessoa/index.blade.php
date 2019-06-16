@@ -10,6 +10,7 @@
         <form class = 'col s3' method = 'get' action = '{!!url("pessoa")!!}/create'>
             <button class = 'btn red' type = 'submit'>Cadastrar</button>
         </form>
+		<!--
         <ul id="dropdown" class="dropdown-content">
             <li><a href="http://localhost/japel_fundiaria_servidor/public/usuario">Usuario</a></li>
         </ul>
@@ -18,7 +19,8 @@
             <li><a href="http://localhost/japel_fundiaria_servidor/public/pessoa">Pessoa</a></li>
         </ul>
         <a class="col s3 btn dropdown-button #1e88e5 blue darken-1" href="#!" data-activates="dropdown1">Associar pessoa<i class="mdi-navigation-arrow-drop-down right"></i></a>
-    </div>
+		-->
+	</div>
     <table>
         <thead>
             <th>Nome</th>
