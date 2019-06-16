@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Cadastros</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -13,8 +13,15 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
+                </div>
+				<div class="card-body">
+                    <a href="usuario">Cadastro usuários</a>
+                </div>
+				<div class="card-body">
+                    <a href="pessoa">Cadastro pessoas</a>
+                </div>
+				<div class="card-body">
+                    <a href="moradia">Cadastro moradias</a>
                 </div>
             </div>
         </div>
