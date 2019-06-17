@@ -21,7 +21,7 @@
                     <a href="pessoa">Cadastro pessoas</a>
                 </div>
 				<div class="card-body">
-                    <a href="moradia">Cadastro moradias</a>
+                    <a href="moradium">Cadastro moradias</a>
                 </div>
             </div>
         </div>

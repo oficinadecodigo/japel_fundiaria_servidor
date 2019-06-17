@@ -41,3 +41,11 @@ Route::group(['middleware'=> 'web'],function(){
   Route::get('pessoa/{id}/delete','\App\Http\Controllers\PessoaController@destroy');
   Route::get('pessoa/{id}/deleteMsg','\App\Http\Controllers\PessoaController@DeleteMsg');
 });
+
+//moradium Routes
+Route::group(['middleware'=> 'web'],function(){
+  Route::resource('moradium','\App\Http\Controllers\MoradiumController');
+  Route::post('moradium/{id}/update','\App\Http\Controllers\MoradiumController@update');
+  Route::get('moradium/{id}/delete','\App\Http\Controllers\MoradiumController@destroy');
+  Route::get('moradium/{id}/deleteMsg','\App\Http\Controllers\MoradiumController@DeleteMsg');
+});
