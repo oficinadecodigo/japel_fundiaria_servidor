@@ -240,7 +240,7 @@ class PessoaController extends Controller
         
         
         $pessoa->usuario_id = $request->usuario_id;
-        $pessoa->pessoa_id = $request->usuario_id;
+        $pessoa->pessoa_id = $request->pessoa_id;
 
         
         $pessoa->save();
@@ -434,7 +434,7 @@ class PessoaController extends Controller
         
         
         $pessoa->usuario_id = $request->usuario_id;
-        $pessoa->pessoa_id = $request->usuario_id;
+        $pessoa->pessoa_id = $request->pessoa_id;
 
         
         $pessoa->save();
