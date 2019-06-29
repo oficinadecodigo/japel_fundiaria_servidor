@@ -29,6 +29,11 @@ class ApiController extends Controller
         return response()->json(Usuario::all());
     }
 
+	function str_wrap($string = '', $char = '"')
+{
+    return str_pad($string, strlen($string) + 2, $char, STR_PAD_BOTH);
+}
+
 	/**
      * Display a listing of the resource.
      *
