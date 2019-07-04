@@ -106,6 +106,7 @@ class ApiController extends Controller
 	$registro->usuario_id = $dados['usuario_id'];
 	$registro->pessoa_id = $dados['pessoa_id'];
 	$registro->foto_rg_verso = $dados['foto_rg_verso'];
+	$registro->fgts_receber = $dados['fgts_receber'];
         $registro->save();
         return response($registro->id);
 		//return response($dados['nome']);
@@ -174,6 +175,8 @@ class ApiController extends Controller
 	$registro->foto_documento_cartografico = $dados['foto_documento_cartografico'];
 	$registro->pessoa_id = $dados['pessoa_id'];
 	$registro->usuario_id = $dados['usuario_id'];
+	$registro->revestimento_externo = $dados['revestimento_externo'];
+	$registro->cobertura = $dados['cobertura'];
         $registro->save();
         return response($registro->id);
     }
