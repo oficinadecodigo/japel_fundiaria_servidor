@@ -177,6 +177,7 @@ class ApiController extends Controller
 	$registro->usuario_id = $dados['usuario_id'];
 	$registro->revestimento_externo = $dados['revestimento_externo'];
 	$registro->cobertura = $dados['cobertura'];
+	$registro->caracterizacao_uso = $dados['caracterizacao_uso'];
         $registro->save();
         return response($registro->id);
     }
